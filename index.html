@@ -104,6 +104,8 @@
         const totalBalance = currentBalanceNumber + depositNumber ;
         document.getElementById("currentBalance").innerText = totalBalance;
         
+        document.getElementById("depositAmount").value ="";
+
         // updateSpanText("currentBalance",depositNumber);
         // updateSpanText("currentDeposit",depositNumber);
         //
@@ -126,6 +128,7 @@
         const totalBalance = currentBalanceNumber - withdrawNumber ;
         document.getElementById("currentBalance").innerText = totalBalance;
         
+        document.getElementById("withdrawAmount").value ="";
 
         //const withdrawNumber=getInputNumber("withdrawAmount");
 
